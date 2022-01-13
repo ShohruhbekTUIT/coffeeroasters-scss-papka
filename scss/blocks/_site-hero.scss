@@ -1,0 +1,30 @@
+.about-us{
+  width: 1280px;
+  border-radius: 10px;
+  padding: 137px 85px;
+  background-image: url(../images/Bitmap-aboutus.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 168px;
+}
+.about-us__info{
+  width: 440px;
+}
+.about-us__title{
+  font-family: "Fraunces" , sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;color: #FEFCF7;
+  margin: 0;
+  margin-bottom: 24px;
+}
+.about-us__text{
+  font-family: "Barlow" ,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0;
+  color: #FEFCF7;
+}

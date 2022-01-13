@@ -1,0 +1,29 @@
+.site-footer{
+  background-color: #2C343E;
+  padding: 47px 85px;
+  margin-bottom: 88px;
+}
+.site-footer__link{
+  margin-right: 105px;
+}
+.site-footer__list{
+  margin-right: auto;
+}
+.site-footer__item-link:hover{
+  color: #FEFCF7;
+}
+
+.site-footer__icon-link{
+  text-decoration: none;
+
+  &:hover svg path{
+    fill: #FDD6BA;
+  }
+}
+.site-footer__image{
+  width: 24px;
+  height: 24px;
+}
+.site-footer__icon-link + .site-footer__icon-link{
+  margin-left: 24px;
+}

@@ -1,0 +1,44 @@
+.header__section{
+  display: flex;
+  margin-top: 45px;
+  margin-bottom: 48px;
+}
+.site-nav{
+  display: flex;
+}
+.site-nav__link{
+  text-decoration: none;
+  margin-right: auto;
+}
+.site-nav__img{
+  width: 236px;
+  height: 26px;
+}
+.site-nav__list{
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.site-nav__item{
+  margin: 0;
+  padding: 0;
+
+  &:nth-child(2){
+  margin: 0 32px;
+  }
+}
+.site-nav__item-link{
+  text-decoration: none;
+  color: #83888F;
+  font-family: "Barlow" , sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  vertical-align: middle;
+
+  &:hover{
+    color: #333D4B;
+  }
+}
+/* =====Finish header===== */

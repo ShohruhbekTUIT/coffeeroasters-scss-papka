@@ -1,0 +1,37 @@
+.our-commitment{
+  display: flex;
+  padding: 0 85px;
+  margin-bottom: 200px;
+}
+.our-commitment__img{
+  width: 420px;
+  height: 500px;
+  margin-right: 125px;
+}
+.our-commitment__info{
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.our-commitment__title{
+  margin: 0;
+  margin-bottom: 32px;
+  font-family: "Fraunces" , serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+  text-align: start;
+}
+.our-commitment__text{
+  margin: 0;
+  font-family: "Barlow" , sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  opacity: 0.8;
+}
