@@ -11,7 +11,7 @@
   margin-right: auto;
 }
 .site-nav__img{
-  width: 236px;
+  max-width: 236px;
   height: 26px;
 }
 .site-nav__list{
@@ -41,4 +41,29 @@
     color: #333D4B;
   }
 }
-/* =====Finish header===== */
+@media only screen and (min-width:660px) and (max-width: 1400px) {
+  .header__hamburg-button{
+    display: none;
+}
+}
+
+
+@media only screen and (min-width: 250px) and (max-width:660px){
+    
+  .header--active .site-nav__list {
+      display: none;
+  }
+  
+  .site-nav__item + .site-nav__item{
+      margin-left: 0;
+      margin: 32px 0;
+  }
+  
+  .header__hamburg-button{
+      display: block;
+      background-color: transparent;
+      border: none;
+      color: #333D4B;
+  }
+
+}
