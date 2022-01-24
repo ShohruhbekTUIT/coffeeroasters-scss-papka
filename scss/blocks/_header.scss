@@ -41,23 +41,32 @@
     color: #333D4B;
   }
 }
-@media only screen and (min-width:660px) and (max-width: 1541px) {
+@media only screen and (min-width:425px) and (max-width: 1441px) {
   .header__hamburg-button{
     display: none;
 }
 }
 
-
-@media only screen and (min-width: 250px) and (max-width:660px){
+// @media only screen and (width:425px){
+  
+//   .header__section .site-nav__item{
+//     &:nth-child(2){
+//       margin: 0;
+//       margin: 12px 0;
+//     }
+    
+// }
+// }
+@media only screen and (max-width: 425px){
     
   .header--active .site-nav__list {
       display: none;
   }
   
-  .site-nav__item + .site-nav__item{
-      margin-left: 0;
-      margin: 32px 0;
-  }
+  // .site-nav__item + .site-nav__item{
+  //     margin-left: 0;
+  //     margin: 32px 0;
+  // }
   
   .header__hamburg-button{
       display: block;

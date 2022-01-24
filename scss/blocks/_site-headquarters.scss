@@ -47,4 +47,282 @@
   line-height: 26px;
   color: #333D4B;
 }
-/* =====Finish main===== */
+@media only screen and (max-width:1440px){
+
+}
+@media only screen and (min-width:770px) and (max-width:1024px){
+  .our-headquarters{
+    padding-left: 85px;
+    margin-bottom: 168px;
+  }
+  .our-headquarters__title{
+    margin: 0;
+    font-family: "Fraunces" , serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-bottom: 72px;
+  }
+  .our-headquarters__list{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  .our-headquarters__item{
+    width: 285px;
+    margin: 0;
+    padding: 0;
+  }
+  .our-headquarters__item + .our-headquarters__item{
+    margin-left: 110px;
+  }
+  .our-headquarters__img{
+    margin-bottom: 45px;
+  }
+  .our-headquarters__subject{
+    font-family: "Fraunces" , serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    margin: 0;
+    margin-bottom: 24px;
+  }
+  .our-headquarters__text{
+    font-family: "Barlow" , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+  }
+}
+@media only screen and (min-width:450px) and (max-width:768px){
+  .our-headquarters{
+    padding-left: 40px;
+    margin-bottom: 168px;
+  }
+  .our-headquarters__title{
+    margin: 0;
+    font-family: "Fraunces" , serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-bottom: 72px;
+  }
+  .our-headquarters__list{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  .our-headquarters__item{
+    width: 285px;
+    margin: 0;
+    padding: 0;
+  }
+  .our-headquarters__item + .our-headquarters__item{
+    margin-left: 110px;
+  }
+  .our-headquarters__img{
+    margin-bottom: 45px;
+  }
+  .our-headquarters__subject{
+    font-family: "Fraunces" , serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    margin: 0;
+    margin-bottom: 24px;
+  }
+  .our-headquarters__text{
+    font-family: "Barlow" , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+  }
+}
+@media only screen and (max-width:425px){
+  .our-headquarters{
+    padding-left: 0px;
+    margin-bottom: 168px;
+  }
+  .our-headquarters__title{
+    margin: 0;
+    font-family: "Fraunces" , serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 33px;  
+    text-align: center;
+    color: #83888F;
+    margin-bottom: 72px;
+  }
+  .our-headquarters__list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .our-headquarters__item{
+    width: 285px;
+    margin: 0;
+    padding: 0;
+  }
+  .our-headquarters__item + .our-headquarters__item{
+    margin-left: 0px;
+    margin-top: 80px;
+  }
+  .our-headquarters__img{
+    margin-left: 125px; 
+    margin-bottom: 40px;
+  }
+  .our-headquarters__subject{
+    font-family: "Fraunces" , serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    text-align: center;
+    line-height: 36px;
+    color: #333D4B;
+    margin: 0;
+    margin-bottom: 24px;
+  }
+  .our-headquarters__text{
+    font-family: "Barlow" , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+  }
+}
+@media only screen and (max-width:375px){
+  .our-headquarters{
+    padding-left: 0px;
+    margin-bottom: 168px;
+  }
+  .our-headquarters__title{
+    margin: 0;
+    font-family: "Fraunces" , serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 33px;  
+    text-align: center;
+    color: #83888F;
+    margin-bottom: 72px;
+  }
+  .our-headquarters__list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .our-headquarters__item{
+    width: 285px;
+    margin: 0;
+    padding: 0;
+  }
+  .our-headquarters__item + .our-headquarters__item{
+    margin-left: 0px;
+    margin-top: 80px;
+  }
+  .our-headquarters__img{
+    margin-left: 125px; 
+    margin-bottom: 40px;
+  }
+  .our-headquarters__subject{
+    font-family: "Fraunces" , serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    text-align: center;
+    line-height: 36px;
+    color: #333D4B;
+    margin: 0;
+    margin-bottom: 24px;
+  }
+  .our-headquarters__text{
+    font-family: "Barlow" , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+  }
+}
+@media only screen and (max-width:320px){
+  .our-headquarters{
+    padding-left: 0px;
+    margin-bottom: 168px;
+  }
+  .our-headquarters__title{
+    margin: 0;
+    font-family: "Fraunces" , serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 33px;  
+    text-align: center;
+    color: #83888F;
+    margin-bottom: 72px;
+  }
+  .our-headquarters__list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .our-headquarters__item{
+    width: 285px;
+    margin: 0;
+    padding: 0;
+  }
+  .our-headquarters__item + .our-headquarters__item{
+    margin-left: 0px;
+    margin-top: 80px;
+  }
+  .our-headquarters__img{
+    margin-left: 125px; 
+    margin-bottom: 38px;
+  }
+  .our-headquarters__subject{
+    font-family: "Fraunces" , serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    text-align: center;
+    line-height: 36px;
+    color: #333D4B;
+    margin: 0;
+    margin-bottom: 24px;
+  }
+  .our-headquarters__text{
+    font-family: "Barlow" , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+  }
+}
